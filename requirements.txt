@@ -1,2 +1,3 @@
 flask
 environs~=9.3.4
+gunicorn
