@@ -1,7 +1,7 @@
-from dotenv import load_dotenv, find_dotenv
+# from dotenv import load_dotenv, find_dotenv
 import os
 
-load_dotenv(verbose=True)
+# load_dotenv(verbose=True)
 
 FROM_EMAIL = os.environ.get("FROM_EMAIL")
 TO_EMAIL = os.environ.get("TO_EMAIL")
