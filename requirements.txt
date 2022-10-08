@@ -1,3 +1,4 @@
 flask
 email
+environs~=9.3.4
 dotenv
