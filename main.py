@@ -12,6 +12,7 @@ def incoming_sms():
     """Send a dynamic reply to an incoming text message"""
     # Get the message the user sent our Twilio number
     content = json.dumps(request.args)
+    print(content)
     send_email(content)
 
     return json.dumps(request.args)
