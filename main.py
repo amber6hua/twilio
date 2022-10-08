@@ -1,5 +1,4 @@
 from flask import Flask, request, redirect, json
-from twilio.twiml.messaging_response import MessagingResponse
 import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr

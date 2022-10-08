@@ -12,7 +12,7 @@
       "description": "TO EMAIL"
     },
     "KEY": {
-      "description": "EMAIL KEY",
+      "description": "EMAIL KEY"
     },
     "SMTP_SSL": {
       "description": "SMTP SSL"
