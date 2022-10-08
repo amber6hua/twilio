@@ -1,0 +1,27 @@
+{
+  "name": "Heroku-twilio",
+  "description": "twilio",
+  "keywords": ["twilio"],
+  "website": "https://github.com/amber6hua/twilio",
+  "repository": "https://github.com/amber6hua/twilio",
+  "env": {
+    "FROM_EMAIL": {
+      "description": "FROM EMAIL"
+    },
+    "TO_EMAIL": {
+      "description": "TO EMAIL"
+    },
+    "KEY": {
+      "description": "EMAIL KEY",
+    },
+    "SMTP_SSL": {
+      "description": "SMTP SSL"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "addons": []
+}
